@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

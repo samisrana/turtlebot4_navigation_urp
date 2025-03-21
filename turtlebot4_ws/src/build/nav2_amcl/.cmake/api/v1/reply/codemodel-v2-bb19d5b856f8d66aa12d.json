@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2a0626511f6259ebe6b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						7
+					]
+				},
+				{
+					"build" : "src/pf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.pf-Release-11e4cfcfaa887ef938f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/pf",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/map",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.map-Release-e4346b219bb4448126fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/map",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/motion_model",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.motion_model-Release-92dc8686d494034ff5e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/motion_model",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/sensors",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.sensors-Release-d5ddb7f19c0080d46cb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/sensors",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "nav2_amcl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "amcl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amcl-Release-5f4684577e6a8fd52b65.json",
+					"name" : "amcl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "amcl_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amcl_core-Release-2c73e295b884ec767237.json",
+					"name" : "amcl_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "map_lib::@49e5eb6817f363ea937d",
+					"jsonFile" : "target-map_lib-Release-7db2541662cbb83ff3d4.json",
+					"name" : "map_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "motions_lib::@5e1e9c748dc741bc738a",
+					"jsonFile" : "target-motions_lib-Release-4dd7e4c3cbb7a9983f1f.json",
+					"name" : "motions_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_amcl_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_amcl_uninstall-Release-14c29d47e343e77a30df.json",
+					"name" : "nav2_amcl_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pf_lib::@519c1e393164ec5b0875",
+					"jsonFile" : "target-pf_lib-Release-a11008b614ea77483767.json",
+					"name" : "pf_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sensors_lib::@8d2b3ec0edc5ac3fa2bf",
+					"jsonFile" : "target-sensors_lib-Release-d2af73df729aa17d551a.json",
+					"name" : "sensors_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c8ae6093c376efd98fa9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ranas/turtlebot4_ws/src/build/nav2_amcl",
+		"source" : "/home/ranas/turtlebot4_ws/src/navigation2/nav2_amcl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

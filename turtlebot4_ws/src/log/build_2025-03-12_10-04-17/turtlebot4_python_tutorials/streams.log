@@ -1,0 +1,61 @@
+[2.166s] Invoking command in '/home/ranas/turtlebot4_ws/src/turtlebot4_tutorials/turtlebot4_python_tutorials': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_python_tutorials build --build-base /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build install --record /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/install.log --single-version-externally-managed install_data
+[2.447s] running egg_info
+[2.447s] creating ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info
+[2.467s] writing ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/PKG-INFO
+[2.467s] writing dependency_links to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/dependency_links.txt
+[2.467s] writing entry points to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/entry_points.txt
+[2.467s] writing requirements to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/requires.txt
+[2.467s] writing top-level names to ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/top_level.txt
+[2.468s] writing manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+[2.507s] reading manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+[2.507s] writing manifest file '../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info/SOURCES.txt'
+[2.507s] running build
+[2.507s] running build_py
+[2.508s] creating /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build
+[2.508s] creating /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib
+[2.508s] creating /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.508s] copying turtlebot4_python_tutorials/__init__.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.508s] copying turtlebot4_python_tutorials/turtlebot4_first_python_node.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.508s] copying turtlebot4_python_tutorials/follow_waypoints.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.508s] copying turtlebot4_python_tutorials/nav_to_pose.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.508s] copying turtlebot4_python_tutorials/create_path.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.508s] copying turtlebot4_python_tutorials/nav_through_poses.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.509s] copying turtlebot4_python_tutorials/mail_delivery.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.509s] copying turtlebot4_python_tutorials/patrol_loop.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials
+[2.510s] running install
+[2.521s] running install_lib
+[2.550s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.550s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/__init__.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.550s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/turtlebot4_first_python_node.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.551s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/follow_waypoints.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.551s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/nav_to_pose.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.551s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/create_path.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.552s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/nav_through_poses.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.552s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/mail_delivery.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.552s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build/lib/turtlebot4_python_tutorials/patrol_loop.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials
+[2.552s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/__init__.py to __init__.cpython-312.pyc
+[2.552s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/turtlebot4_first_python_node.py to turtlebot4_first_python_node.cpython-312.pyc
+[2.553s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/follow_waypoints.py to follow_waypoints.cpython-312.pyc
+[2.553s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/nav_to_pose.py to nav_to_pose.cpython-312.pyc
+[2.553s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/create_path.py to create_path.cpython-312.pyc
+[2.555s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/nav_through_poses.py to nav_through_poses.cpython-312.pyc
+[2.555s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/mail_delivery.py to mail_delivery.cpython-312.pyc
+[2.555s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials/patrol_loop.py to patrol_loop.cpython-312.pyc
+[2.556s] running install_data
+[2.556s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/share/ament_index
+[2.556s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/share/ament_index/resource_index
+[2.556s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/share/ament_index/resource_index/packages
+[2.557s] copying resource/turtlebot4_python_tutorials -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/share/ament_index/resource_index/packages
+[2.557s] copying package.xml -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/share/turtlebot4_python_tutorials
+[2.557s] running install_egg_info
+[2.577s] Copying ../../build/turtlebot4_python_tutorials/turtlebot4_python_tutorials.egg-info to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages/turtlebot4_python_tutorials-1.0.1-py3.12.egg-info
+[2.578s] running install_scripts
+[2.717s] Installing create_path script to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[2.717s] Installing follow_waypoints script to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[2.717s] Installing mail_delivery script to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[2.717s] Installing nav_through_poses script to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[2.718s] Installing nav_to_pose script to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[2.718s] Installing patrol_loop script to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[2.718s] Installing turtlebot4_first_python_node script to /home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/turtlebot4_python_tutorials
+[2.718s] writing list of installed files to '/home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/install.log'
+[2.759s] Invoked command in '/home/ranas/turtlebot4_ws/src/turtlebot4_tutorials/turtlebot4_python_tutorials' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_python_tutorials build --build-base /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/build install --record /home/ranas/turtlebot4_ws/src/build/turtlebot4_python_tutorials/install.log --single-version-externally-managed install_data

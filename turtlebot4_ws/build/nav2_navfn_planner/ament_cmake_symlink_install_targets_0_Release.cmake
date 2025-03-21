@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_navfn_planner/libnav2_navfn_planner.so" "TARGETS" "nav2_navfn_planner" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

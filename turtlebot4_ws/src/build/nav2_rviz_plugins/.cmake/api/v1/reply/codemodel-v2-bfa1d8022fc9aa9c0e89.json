@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9a5bd47316926956f5c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_rviz_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_rviz_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_rviz_plugins-f1badf69a98bea25f0aa.json",
+					"name" : "nav2_rviz_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_rviz_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_rviz_plugins_autogen-7d1bf33a3a184e9aeb4f.json",
+					"name" : "nav2_rviz_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_rviz_plugins_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_rviz_plugins_autogen_timestamp_deps-69308c34a3d8811efaa0.json",
+					"name" : "nav2_rviz_plugins_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_rviz_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_rviz_plugins_uninstall-beee8e94a1c663089125.json",
+					"name" : "nav2_rviz_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cb1b0059df03a5ecc156.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ranas/turtlebot4_ws/src/build/nav2_rviz_plugins",
+		"source" : "/home/ranas/turtlebot4_ws/src/navigation2/nav2_rviz_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_smac_planner/ament_cmake_core/nav2_smac_plannerConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

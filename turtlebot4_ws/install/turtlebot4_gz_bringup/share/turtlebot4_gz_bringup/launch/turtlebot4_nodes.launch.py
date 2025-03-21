@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_gz_bringup/launch/turtlebot4_nodes.launch.py

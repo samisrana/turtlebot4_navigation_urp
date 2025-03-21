@@ -1,0 +1,143 @@
+[0.063s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_gz_gui_plugins -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins
+[0.829s] -- The C compiler identification is GNU 13.3.0
+[0.830s] -- The CXX compiler identification is GNU 13.3.0
+[0.830s] -- Detecting C compiler ABI info
+[0.830s] -- Detecting C compiler ABI info - done
+[0.830s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.830s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[0.830s] -- Detecting CXX compiler ABI info
+[0.830s] -- Detecting CXX compiler ABI info - done
+[0.830s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.830s] -- Detecting CXX compile features
+[0.831s] -- Detecting CXX compile features - done
+[0.831s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.893s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.188s] -- Found gz_gui_vendor: 0.0.4 (/opt/ros/jazzy/share/gz_gui_vendor/cmake)
+[1.273s] -- Looking for gz-gui8 -- found version 8.3.0
+[1.289s] -- Searching for dependencies of gz-gui8
+[1.509s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[1.519s] -- Checking for module 'tinyxml2'
+[1.541s] --   Found tinyxml2, version 10.0.0
+[1.589s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.589s] -- Searching for dependencies of gz-utils2
+[1.595s] -- Looking for gz-math7 -- found version 7.5.1
+[1.595s] -- Searching for dependencies of gz-math7
+[1.596s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.604s] -- Looking for gz-common5 -- found version 5.7.0
+[1.604s] -- Searching for dependencies of gz-common5
+[1.605s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.606s] -- Looking for dlfcn.h - found
+[1.608s] -- Looking for libdl - found
+[1.610s] -- Found DL: TRUE  
+[1.618s] -- Checking for module 'uuid'
+[1.647s] --   Found uuid, version 2.39.3
+[1.692s] -- Found UUID: TRUE  
+[1.693s] -- Searching for <gz-common5> component [profiler]
+[1.699s] -- Looking for gz-common5-profiler -- found version 5.7.0
+[1.699s] -- Searching for dependencies of gz-common5-profiler
+[1.711s] -- Looking for gz-plugin2 -- found version 2.0.3
+[1.712s] -- Searching for dependencies of gz-plugin2
+[1.712s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.712s] -- Searching for dependencies of gz-utils2
+[1.712s] -- Searching for <gz-utils2> component [cli]
+[1.719s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[1.719s] -- Searching for dependencies of gz-utils2-cli
+[1.720s] -- Searching for <gz-plugin2> component [loader]
+[1.725s] -- Looking for gz-plugin2-loader -- found version 2.0.3
+[1.725s] -- Searching for dependencies of gz-plugin2-loader
+[1.726s] -- Searching for <gz-plugin2> component [register]
+[1.731s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[1.732s] -- Searching for dependencies of gz-plugin2-register
+[1.743s] -- Looking for gz-transport13 -- found version 13.4.0
+[1.744s] -- Searching for dependencies of gz-transport13
+[1.806s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.814s] -- Checking for module 'libzmq >= 4'
+[1.836s] --   Found libzmq, version 4.3.5
+[1.905s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.915s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.921s] -- Looking for gz-msgs10 -- found version 10.3.1
+[1.921s] -- Searching for dependencies of gz-msgs10
+[1.948s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.950s] -- Looking for gz-math7 -- found version 7.5.1
+[2.185s] -- Looking for gz-rendering8 -- found version 8.2.1
+[2.185s] -- Searching for dependencies of gz-rendering8
+[2.185s] -- Looking for gz-math7 -- found version 7.5.1
+[2.185s] -- Searching for dependencies of gz-math7
+[2.185s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.185s] -- Searching for <gz-math7> component [eigen3]
+[2.189s] -- Looking for gz-math7-eigen3 -- found version 7.5.1
+[2.189s] -- Searching for dependencies of gz-math7-eigen3
+[2.211s] -- Looking for gz-common5 -- found version 5.7.0
+[2.212s] -- Searching for dependencies of gz-common5
+[2.212s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.212s] -- Looking for dlfcn.h - found
+[2.213s] -- Looking for libdl - found
+[2.228s] -- Searching for <gz-common5> component [graphics]
+[2.238s] -- Looking for gz-common5-graphics -- found version 5.7.0
+[2.238s] -- Searching for dependencies of gz-common5-graphics
+[2.239s] -- Looking for gz-math7 -- found version 7.5.1
+[2.254s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[2.255s] -- Searching for <gz-common5> component [events]
+[2.265s] -- Looking for gz-common5-events -- found version 5.7.0
+[2.265s] -- Searching for dependencies of gz-common5-events
+[2.266s] -- Looking for gz-math7 -- found version 7.5.1
+[2.267s] -- Searching for <gz-common5> component [geospatial]
+[2.276s] -- Looking for gz-common5-geospatial -- found version 5.7.0
+[2.277s] -- Searching for dependencies of gz-common5-geospatial
+[2.277s] -- Looking for gz-math7 -- found version 7.5.1
+[2.278s] -- Looking for gz-common5 -- found version 5.7.0
+[2.280s] -- Looking for gz-plugin2 -- found version 2.0.3
+[2.280s] -- Searching for dependencies of gz-plugin2
+[2.281s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.281s] -- Searching for <gz-plugin2> component [all]
+[2.289s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+[2.290s] -- Looking for gz-plugin2 -- found version 2.0.3
+[2.292s] -- Looking for gz-utils2 -- found version 2.2.0
+[2.343s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[2.346s] -- Looking for gz-msgs10 -- found version 10.3.1
+[2.389s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.636s] -- Looking for gz-gui8 -- found version 8.3.0
+[2.637s] -- Looking for gz-common5 -- found version 5.7.0
+[2.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.641s] -- Configured cppcheck include dirs: 
+[2.642s] -- Configured cppcheck exclude dirs and/or files: 
+[2.644s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.644s] -- Configured cpplint exclude dirs and/or files: 
+[2.645s] -- Added test 'lint_cmake' to check CMake code style
+[2.647s] -- Added test 'xmllint' to check XML markup files
+[2.651s] -- Configuring done (2.6s)
+[2.681s] -- Generating done (0.0s)
+[2.683s] -- Build files have been written to: /home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins
+[2.697s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_gz_gui_plugins -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins
+[2.698s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins -- -j22 -l22
+[2.797s] [  0%] Built target Turtlebot4Hmi_autogen_timestamp_deps
+[2.837s] [ 14%] [34m[1mAutomatic MOC for target Turtlebot4Hmi[0m
+[4.347s] [ 14%] Built target Turtlebot4Hmi_autogen
+[4.354s] [ 28%] [34m[1mGenerating qrc_Turtlebot4Hmi.cpp[0m
+[4.424s] [ 42%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi_autogen/mocs_compilation.cpp.o[0m
+[4.424s] [ 71%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi.cc.o[0m
+[4.424s] [ 71%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/qrc_Turtlebot4Hmi.cpp.o[0m
+[15.112s] [ 85%] [32m[1mLinking CXX shared library libTurtlebot4Hmi.so[0m
+[15.454s] [100%] Built target Turtlebot4Hmi
+[15.472s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins -- -j22 -l22
+[15.475s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins
+[15.488s] -- Install configuration: ""
+[15.488s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/ament_index/resource_index/package_run_dependencies/turtlebot4_gz_gui_plugins
+[15.488s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/ament_index/resource_index/parent_prefix_path/turtlebot4_gz_gui_plugins
+[15.488s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/environment/ament_prefix_path.sh
+[15.488s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/environment/ament_prefix_path.dsv
+[15.488s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/environment/path.sh
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/environment/path.dsv
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/local_setup.bash
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/local_setup.sh
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/local_setup.zsh
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/local_setup.dsv
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.dsv
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/ament_index/resource_index/packages/turtlebot4_gz_gui_plugins
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/cmake/turtlebot4_gz_gui_pluginsConfig.cmake
+[15.489s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/cmake/turtlebot4_gz_gui_pluginsConfig-version.cmake
+[15.490s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.xml
+[15.490s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/lib/libTurtlebot4Hmi.so
+[15.490s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/lib/libTurtlebot4Hmi.so" to ""
+[15.494s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_ws/src/build/turtlebot4_gz_gui_plugins

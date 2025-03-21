@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/dwb_msgs/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__struct.h

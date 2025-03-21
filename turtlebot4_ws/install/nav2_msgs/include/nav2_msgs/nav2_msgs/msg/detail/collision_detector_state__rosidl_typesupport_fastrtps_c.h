@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_msgs/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/collision_detector_state__rosidl_typesupport_fastrtps_c.h

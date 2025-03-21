@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_cpp_tutorials/turtlebot4_first_cpp_node" "TARGETS" "turtlebot4_first_cpp_node" "DESTINATION" "lib/turtlebot4_cpp_tutorials")

@@ -1,0 +1,13 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/uninstall.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/nav2_bt_navigator_uninstall.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/bt_navigator.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/bt_navigator_core.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/nav2_navigate_to_pose_navigator.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/nav2_navigate_through_poses.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/test.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/edit_cache.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/rebuild_cache.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/list_install_components.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/install.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/install/local.dir
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_bt_navigator/CMakeFiles/install/strip.dir

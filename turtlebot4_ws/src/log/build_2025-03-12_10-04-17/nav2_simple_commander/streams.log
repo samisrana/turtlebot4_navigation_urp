@@ -1,0 +1,93 @@
+[0.888s] Invoking command in '/home/ranas/turtlebot4_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages:/home/ranas/turtlebot4_ws/src/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_ws/src/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_simple_commander build --build-base /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build install --record /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[1.163s] running egg_info
+[1.163s] creating ../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[1.180s] writing ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.181s] writing dependency_links to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.181s] writing entry points to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.181s] writing requirements to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.181s] writing top-level names to ../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.182s] writing manifest file '../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.226s] reading manifest file '../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.227s] writing manifest file '../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.227s] running build
+[1.227s] running build_py
+[1.227s] creating /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build
+[1.228s] creating /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib
+[1.228s] creating /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.228s] copying nav2_simple_commander/demo_security.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.228s] copying nav2_simple_commander/__init__.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.228s] copying nav2_simple_commander/example_follow_path.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.228s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.229s] copying nav2_simple_commander/costmap_2d.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.229s] copying nav2_simple_commander/footprint_collision_checker.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.229s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.229s] copying nav2_simple_commander/demo_picking.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.229s] copying nav2_simple_commander/utils.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.229s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.230s] copying nav2_simple_commander/robot_navigator.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.230s] copying nav2_simple_commander/demo_recoveries.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.230s] copying nav2_simple_commander/line_iterator.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.230s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.230s] copying nav2_simple_commander/demo_inspection.py -> /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.230s] running install
+[1.236s] running install_lib
+[1.255s] creating /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.255s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.255s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.255s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.255s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.256s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.256s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/footprint_collision_checker.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.256s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.256s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.256s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/utils.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.256s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.257s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.257s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.257s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.257s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.257s] copying /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[1.257s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-312.pyc
+[1.258s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-312.pyc
+[1.258s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-312.pyc
+[1.258s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-312.pyc
+[1.259s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-312.pyc
+[1.260s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/footprint_collision_checker.py to footprint_collision_checker.cpython-312.pyc
+[1.261s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-312.pyc
+[1.262s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-312.pyc
+[1.263s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/utils.py to utils.cpython-312.pyc
+[1.263s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-312.pyc
+[1.264s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-312.pyc
+[1.269s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-312.pyc
+[1.270s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-312.pyc
+[1.271s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-312.pyc
+[1.272s] byte-compiling /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-312.pyc
+[1.272s] running install_data
+[1.273s] creating /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/ament_index
+[1.273s] creating /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/ament_index/resource_index
+[1.273s] creating /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.273s] copying resource/nav2_simple_commander -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.273s] copying package.xml -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.273s] copying launch/assisted_teleop_example_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.274s] copying launch/picking_demo_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.274s] copying launch/nav_through_poses_example_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.274s] copying launch/inspection_demo_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.274s] copying launch/recoveries_example_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.274s] copying launch/waypoint_follower_example_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.274s] copying launch/nav_to_pose_example_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.274s] copying launch/follow_path_example_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.275s] copying launch/security_demo_launch.py -> /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/share/nav2_simple_commander
+[1.275s] running install_egg_info
+[1.294s] Copying ../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander-1.0.0-py3.12.egg-info
+[1.294s] running install_scripts
+[1.425s] Installing demo_inspection script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing demo_picking script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing demo_recoveries script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing demo_security script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing example_assisted_teleop script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing example_follow_path script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing example_nav_through_poses script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing example_nav_to_pose script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.425s] Installing example_waypoint_follower script to /home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.426s] writing list of installed files to '/home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/install.log'
+[1.461s] Invoked command in '/home/ranas/turtlebot4_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander/lib/python3.12/site-packages:/home/ranas/turtlebot4_ws/src/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_ws/src/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_simple_commander build --build-base /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/build install --record /home/ranas/turtlebot4_ws/src/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

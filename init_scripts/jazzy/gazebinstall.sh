@@ -31,6 +31,10 @@ if [ ! -f "/etc/ros/rosdep/sources.list.d/20-default.list" ]; then
 fi
 rosdep update
 
+# Ensure ROS_DISTRO is set
+print_header "Setting ROS_DISTRO Environment Variable"
+export ROS_DISTRO=jazzy
+
 # Install Gazebo Harmonic
 print_header "Installing Gazebo Harmonic"
 sudo curl -fsSL https://packages.osrfoundation.org/gazebo.gpg -o /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
@@ -57,9 +61,15 @@ if [[ "$INSTALL_SOURCE" == "yes" ]]; then
     cd ~/turtlebot4_ws/src
     git clone https://github.com/turtlebot/turtlebot4_simulator.git -b jazzy
     cd ~/turtlebot4_ws
+    
+    # Ensure ROS dependencies are installed
+    print_header "Updating and Resolving ROS Dependencies"
+    rosdep update
     rosdep install --from-path src -yi
+    
     source /opt/ros/jazzy/setup.bash
     colcon build --symlink-install
+    
     echo "source ~/turtlebot4_ws/install/setup.bash" >> ~/.bashrc
     source ~/.bashrc
 fi

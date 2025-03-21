@@ -1,0 +1,70 @@
+[0.037s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description
+[0.303s] -- The C compiler identification is GNU 13.3.0
+[0.303s] -- The CXX compiler identification is GNU 13.3.0
+[0.303s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.520s] -- Detecting CXX compile features
+[0.521s] -- Detecting CXX compile features - done
+[0.525s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.785s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.871s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.921s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.971s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.986s] -- Found irobot_create_description: 3.0.4 (/opt/ros/jazzy/share/irobot_create_description/cmake)
+[0.989s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.150s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.154s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.154s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.156s] -- Added test 'lint_cmake' to check CMake code style
+[1.158s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.160s] -- Added test 'xmllint' to check XML markup files
+[1.164s] -- Configuring done (1.1s)
+[1.167s] -- Generating done (0.0s)
+[1.169s] -- Build files have been written to: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description
+[1.177s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/turtlebot4/turtlebot4_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description
+[1.180s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description -- -j22 -l22
+[1.237s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description -- -j22 -l22
+[1.238s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description
+[1.250s] -- Install configuration: ""
+[1.250s] -- Execute custom install script
+[1.251s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[1.261s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[1.278s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[1.288s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[1.299s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[1.307s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[1.319s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[1.331s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[1.343s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[1.356s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[1.370s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[1.382s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[1.393s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[1.403s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[1.414s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[1.422s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[1.435s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+[1.441s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+[1.453s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+[1.468s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[1.485s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[1.501s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[1.507s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[1.521s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[1.532s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[1.537s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[1.552s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[1.561s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[1.573s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[1.579s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[1.597s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[1.610s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[1.619s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[1.623s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[1.637s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description

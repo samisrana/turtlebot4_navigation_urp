@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_smac_planner/include/nav2_smac_planner/node_basic.hpp

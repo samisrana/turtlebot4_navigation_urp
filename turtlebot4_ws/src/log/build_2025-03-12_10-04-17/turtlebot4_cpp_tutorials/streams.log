@@ -1,0 +1,65 @@
+[0.055s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_ws/src/turtlebot4_tutorials/turtlebot4_cpp_tutorials -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials
+[0.821s] -- The C compiler identification is GNU 13.3.0
+[0.821s] -- The CXX compiler identification is GNU 13.3.0
+[0.821s] -- Detecting C compiler ABI info
+[0.821s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.821s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.821s] -- Detecting CXX compiler ABI info
+[0.821s] -- Detecting CXX compiler ABI info - done
+[0.821s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.822s] -- Detecting CXX compile features
+[0.822s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.883s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.102s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.239s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.271s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.560s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.575s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.754s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.783s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.827s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.960s] -- Found irobot_create_msgs: 3.0.0 (/opt/ros/jazzy/share/irobot_create_msgs/cmake)
+[2.126s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.370s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.370s] -- Configured cppcheck include dirs: 
+[2.370s] -- Configured cppcheck exclude dirs and/or files: 
+[2.373s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.373s] -- Configured cpplint exclude dirs and/or files: 
+[2.375s] -- Added test 'lint_cmake' to check CMake code style
+[2.378s] -- Added test 'uncrustify' to check C / C++ code style
+[2.378s] -- Configured uncrustify additional arguments: 
+[2.380s] -- Added test 'xmllint' to check XML markup files
+[2.385s] -- Configuring done (2.3s)
+[2.407s] -- Generating done (0.0s)
+[2.413s] -- Build files have been written to: /home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials
+[2.445s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_ws/src/turtlebot4_tutorials/turtlebot4_cpp_tutorials -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials
+[2.447s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials -- -j22 -l22
+[2.546s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_first_cpp_node.dir/src/turtlebot4_first_cpp_node.cpp.o[0m
+[13.934s] [100%] [32m[1mLinking CXX executable turtlebot4_first_cpp_node[0m
+[14.585s] [100%] Built target turtlebot4_first_cpp_node
+[14.610s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials -- -j22 -l22
+[14.612s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials
+[14.631s] -- Install configuration: ""
+[14.631s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/lib/turtlebot4_cpp_tutorials/turtlebot4_first_cpp_node
+[14.636s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/lib/turtlebot4_cpp_tutorials/turtlebot4_first_cpp_node" to ""
+[14.636s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/ament_index/resource_index/package_run_dependencies/turtlebot4_cpp_tutorials
+[14.637s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/ament_index/resource_index/parent_prefix_path/turtlebot4_cpp_tutorials
+[14.637s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/environment/ament_prefix_path.sh
+[14.637s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/environment/ament_prefix_path.dsv
+[14.638s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/environment/path.sh
+[14.638s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/environment/path.dsv
+[14.638s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/local_setup.bash
+[14.638s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/local_setup.sh
+[14.638s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/local_setup.zsh
+[14.638s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/local_setup.dsv
+[14.638s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/package.dsv
+[14.639s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/ament_index/resource_index/packages/turtlebot4_cpp_tutorials
+[14.639s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/cmake/turtlebot4_cpp_tutorialsConfig.cmake
+[14.639s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/cmake/turtlebot4_cpp_tutorialsConfig-version.cmake
+[14.639s] -- Installing: /home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials/share/turtlebot4_cpp_tutorials/package.xml
+[14.642s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_ws/src/build/turtlebot4_cpp_tutorials

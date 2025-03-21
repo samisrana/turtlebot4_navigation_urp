@@ -1,0 +1,62 @@
+[0.041s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common
+[0.312s] -- Found ament_cmake_core: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_core/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.482s] -- Found ament_cmake_python: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_python/cmake)
+[0.717s] -- Configuring done (0.7s)
+[0.720s] -- Generating done (0.0s)
+[0.721s] -- Build files have been written to: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common
+[0.726s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common
+[0.727s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common -- -j22 -l22
+[0.818s] Built target ament_cmake_python_symlink_nav2_common
+[1.056s] running egg_info
+[1.057s] creating nav2_common.egg-info
+[1.075s] writing nav2_common.egg-info/PKG-INFO
+[1.075s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.075s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.075s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.123s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.124s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.157s] Built target ament_cmake_python_build_nav2_common_egg
+[1.172s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common -- -j22 -l22
+[1.185s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common
+[1.196s] -- Install configuration: ""
+[1.196s] -- Execute custom install script
+[1.196s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[1.207s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[1.222s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.5-py3.12.egg-info/PKG-INFO
+[1.232s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.5-py3.12.egg-info/SOURCES.txt
+[1.246s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.5-py3.12.egg-info/dependency_links.txt
+[1.257s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common-1.3.5-py3.12.egg-info/top_level.txt
+[1.270s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py
+[1.285s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py
+[1.302s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py
+[1.318s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/parse_multirobot_pose.py
+[1.332s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py
+[1.348s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py
+[1.358s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[1.369s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[1.384s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[1.394s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[1.406s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[1.417s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[1.427s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[1.441s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[1.448s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[1.459s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[1.474s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/package.dsv
+[1.491s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[1.503s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[1.511s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[1.518s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[1.527s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/package.xml
+[1.536s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[1.577s] Listing '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common'...
+[1.577s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/__init__.py'...
+[1.577s] Listing '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch'...
+[1.577s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/__init__.py'...
+[1.577s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/has_node_params.py'...
+[1.577s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/parse_multirobot_pose.py'...
+[1.577s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/replace_string.py'...
+[1.577s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[1.586s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_common

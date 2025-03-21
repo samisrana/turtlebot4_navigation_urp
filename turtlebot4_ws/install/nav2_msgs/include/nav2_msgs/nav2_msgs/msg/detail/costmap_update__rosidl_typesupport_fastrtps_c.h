@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_msgs/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_update__rosidl_typesupport_fastrtps_c.h

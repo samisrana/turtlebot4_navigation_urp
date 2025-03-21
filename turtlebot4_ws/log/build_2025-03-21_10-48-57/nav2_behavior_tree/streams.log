@@ -1,0 +1,558 @@
+[0.034s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/src/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/src/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_system_tests:/home/ranas/turtlebot4_ws/src/install/nav2_bringup:/home/ranas/turtlebot4_ws/src/install/navigation2:/home/ranas/turtlebot4_ws/src/install/opennav_docking:/home/ranas/turtlebot4_ws/src/install/opennav_docking_core:/home/ranas/turtlebot4_ws/src/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/src/install/nav2_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/src/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/src/install/nav2_controller:/home/ranas/turtlebot4_ws/src/install/dwb_plugins:/home/ranas/turtlebot4_ws/src/install/dwb_critics:/home/ranas/turtlebot4_ws/src/install/dwb_core:/home/ranas/turtlebot4_ws/src/install/nav_2d_utils:/home/ranas/turtlebot4_ws/src/install/dwb_msgs:/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/src/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/src/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/src/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/src/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/src/install/nav2_planner:/home/ranas/turtlebot4_ws/src/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/src/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/src/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/src/install/nav2_behaviors:/home/ranas/turtlebot4_ws/src/install/nav2_core:/home/ranas/turtlebot4_ws/src/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/src/install/costmap_queue:/home/ranas/turtlebot4_ws/src/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/src/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/src/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/src/install/nav2_map_server:/home/ranas/turtlebot4_ws/src/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/src/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/src/install/nav2_amcl:/home/ranas/turtlebot4_ws/src/install/nav2_util:/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util/lib:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree
+[0.135s] -- The CXX compiler identification is GNU 13.3.0
+[0.157s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.554s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.642s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.695s] -- Found nav2_common: 1.3.5 (/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/share/nav2_common/cmake)
+[0.700s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.758s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.780s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.950s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.960s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.102s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.133s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.168s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.225s] -- Found rclcpp_action: 28.1.6 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.257s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.279s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.301s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.316s] -- Found nav2_msgs: 1.3.5 (/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.397s] -- Found behaviortree_cpp: 4.6.2 (/opt/ros/jazzy/share/behaviortree_cpp/cmake)
+[1.401s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.463s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.476s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.477s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.477s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.480s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.490s] -- Found nav2_util: 1.3.5 (/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util/share/nav2_util/cmake)
+[1.524s] -- Setting build type to Release as none was specified.
+[3.926s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.089s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.140s] -- The C compiler identification is GNU 13.3.0
+[4.160s] -- Detecting C compiler ABI info
+[4.283s] -- Detecting C compiler ABI info - done
+[4.293s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.293s] -- Detecting C compile features
+[4.294s] -- Detecting C compile features - done
+[4.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.425s] -- Found Threads: TRUE  
+[7.408s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.416s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.424s] -- Configured cppcheck include dirs: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_behavior_tree/include
+[7.424s] -- Configured cppcheck exclude dirs and/or files: 
+[7.432s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.433s] -- Configured cpplint exclude dirs and/or files: 
+[7.437s] -- Added test 'lint_cmake' to check CMake code style
+[7.445s] -- Added test 'uncrustify' to check C / C++ code style
+[7.445s] -- Configured uncrustify additional arguments: 
+[7.448s] -- Added test 'xmllint' to check XML markup files
+[7.455s] -- Configuring done (7.4s)
+[8.552s] -- Generating done (0.9s)
+[8.866s] -- Build files have been written to: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree
+[8.944s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/src/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/src/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_system_tests:/home/ranas/turtlebot4_ws/src/install/nav2_bringup:/home/ranas/turtlebot4_ws/src/install/navigation2:/home/ranas/turtlebot4_ws/src/install/opennav_docking:/home/ranas/turtlebot4_ws/src/install/opennav_docking_core:/home/ranas/turtlebot4_ws/src/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/src/install/nav2_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/src/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/src/install/nav2_controller:/home/ranas/turtlebot4_ws/src/install/dwb_plugins:/home/ranas/turtlebot4_ws/src/install/dwb_critics:/home/ranas/turtlebot4_ws/src/install/dwb_core:/home/ranas/turtlebot4_ws/src/install/nav_2d_utils:/home/ranas/turtlebot4_ws/src/install/dwb_msgs:/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/src/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/src/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/src/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/src/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/src/install/nav2_planner:/home/ranas/turtlebot4_ws/src/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/src/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/src/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/src/install/nav2_behaviors:/home/ranas/turtlebot4_ws/src/install/nav2_core:/home/ranas/turtlebot4_ws/src/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/src/install/costmap_queue:/home/ranas/turtlebot4_ws/src/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/src/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/src/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/src/install/nav2_map_server:/home/ranas/turtlebot4_ws/src/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/src/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/src/install/nav2_amcl:/home/ranas/turtlebot4_ws/src/install/nav2_util:/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util/lib:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree
+[8.946s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/src/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/src/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_system_tests:/home/ranas/turtlebot4_ws/src/install/nav2_bringup:/home/ranas/turtlebot4_ws/src/install/navigation2:/home/ranas/turtlebot4_ws/src/install/opennav_docking:/home/ranas/turtlebot4_ws/src/install/opennav_docking_core:/home/ranas/turtlebot4_ws/src/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/src/install/nav2_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/src/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/src/install/nav2_controller:/home/ranas/turtlebot4_ws/src/install/dwb_plugins:/home/ranas/turtlebot4_ws/src/install/dwb_critics:/home/ranas/turtlebot4_ws/src/install/dwb_core:/home/ranas/turtlebot4_ws/src/install/nav_2d_utils:/home/ranas/turtlebot4_ws/src/install/dwb_msgs:/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/src/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/src/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/src/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/src/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/src/install/nav2_planner:/home/ranas/turtlebot4_ws/src/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/src/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/src/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/src/install/nav2_behaviors:/home/ranas/turtlebot4_ws/src/install/nav2_core:/home/ranas/turtlebot4_ws/src/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/src/install/costmap_queue:/home/ranas/turtlebot4_ws/src/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/src/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/src/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/src/install/nav2_map_server:/home/ranas/turtlebot4_ws/src/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/src/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/src/install/nav2_amcl:/home/ranas/turtlebot4_ws/src/install/nav2_util:/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util/lib:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree -- -j22 -l22
+[9.035s] [  0%] [32mBuilding CXX object CMakeFiles/nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m
+[9.045s] [  0%] [32mBuilding CXX object CMakeFiles/nav2_wait_cancel_bt_node.dir/plugins/action/wait_cancel_node.cpp.o[0m
+[9.046s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smooth_path_action_bt_node.dir/plugins/action/smooth_path_action.cpp.o[0m
+[9.048s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o[0m
+[9.050s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_spin_cancel_bt_node.dir/plugins/action/spin_cancel_node.cpp.o[0m
+[9.053s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_controller_cancel_bt_node.dir/plugins/action/controller_cancel_node.cpp.o[0m
+[9.055s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_back_up_cancel_bt_node.dir/plugins/action/back_up_cancel_node.cpp.o[0m
+[9.055s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o[0m
+[9.055s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o[0m
+[9.057s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_bt_node.dir/plugins/action/drive_on_heading_action.cpp.o[0m
+[9.071s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o[0m
+[9.071s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_cancel_bt_node.dir/plugins/action/drive_on_heading_cancel_node.cpp.o[0m
+[9.071s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_action_bt_node.dir/plugins/action/assisted_teleop_action.cpp.o[0m
+[9.076s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o[0m
+[9.112s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_cancel_bt_node.dir/plugins/action/assisted_teleop_cancel_node.cpp.o[0m
+[9.135s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[9.141s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o[0m
+[9.164s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[9.172s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o[0m
+[9.172s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o[0m
+[9.174s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[9.181s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_globally_updated_goal_condition_bt_node.dir/plugins/condition/globally_updated_goal_condition.cpp.o[0m
+[18.215s] [  7%] [32m[1mLinking CXX shared library libnav2_behavior_tree.so[0m
+[18.585s] [  7%] Built target nav2_behavior_tree
+[18.667s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o[0m
+[19.954s] [  8%] [32m[1mLinking CXX shared library libnav2_wait_cancel_bt_node.so[0m
+[20.606s] [  8%] Built target nav2_wait_cancel_bt_node
+[20.685s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o[0m
+[21.810s] [ 10%] [32m[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so[0m
+[22.846s] [ 11%] [32m[1mLinking CXX shared library libnav2_globally_updated_goal_condition_bt_node.so[0m
+[23.004s] [ 12%] [32m[1mLinking CXX shared library libnav2_wait_action_bt_node.so[0m
+[23.087s] [ 12%] [32m[1mLinking CXX shared library libnav2_spin_cancel_bt_node.so[0m
+[23.787s] [ 12%] Built target nav2_goal_updated_condition_bt_node
+[23.877s] [ 12%] Built target nav2_globally_updated_goal_condition_bt_node
+[23.892s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_path_expiring_timer_condition.dir/plugins/condition/path_expiring_timer_condition.cpp.o[0m
+[24.007s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o[0m
+[24.325s] [ 14%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_cancel_bt_node.so[0m
+[24.643s] [ 14%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_cancel_bt_node.so[0m
+[25.012s] [ 14%] Built target nav2_wait_action_bt_node
+[25.101s] [ 14%] Built target nav2_spin_cancel_bt_node
+[25.106s] [ 14%] Built target nav2_drive_on_heading_cancel_bt_node
+[25.156s] [ 14%] Built target nav2_assisted_teleop_cancel_bt_node
+[25.175s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o[0m
+[25.186s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_charging_condition_bt_node.dir/plugins/condition/is_battery_charging_condition.cpp.o[0m
+[25.195s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o[0m
+[25.297s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_are_error_codes_active_condition_bt_node.dir/plugins/condition/are_error_codes_present_condition.cpp.o[0m
+[25.812s] [ 19%] [32m[1mLinking CXX shared library libnav2_spin_action_bt_node.so[0m
+[26.105s] [ 19%] [32m[1mLinking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so[0m
+[26.234s] [ 19%] Built target nav2_spin_action_bt_node
+[26.302s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_would_a_controller_recovery_help_condition_bt_node.dir/plugins/condition/would_a_controller_recovery_help_condition.cpp.o[0m
+[26.652s] [ 19%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[26.896s] [ 19%] Built target nav2_transform_available_condition_bt_node
+[27.011s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_would_a_planner_recovery_help_condition_bt_node.dir/plugins/condition/would_a_planner_recovery_help_condition.cpp.o[0m
+[27.283s] [ 19%] [32m[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so[0m
+[27.312s] [ 19%] Built target nav2_compute_path_through_poses_action_bt_node
+[27.409s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_would_a_smoother_recovery_help_condition_bt_node.dir/plugins/condition/would_a_smoother_recovery_help_condition.cpp.o[0m
+[27.428s] [ 20%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[27.678s] [ 20%] Built target nav2_compute_path_to_pose_action_bt_node
+[27.754s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o[0m
+[27.758s] [ 20%] Built target nav2_goal_reached_condition_bt_node
+[27.826s] [ 20%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
+[27.948s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o[0m
+[27.989s] [ 20%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_bt_node.so[0m
+[28.320s] [ 20%] Built target nav2_clear_costmap_service_bt_node
+[28.490s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o[0m
+[29.132s] [ 21%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_action_bt_node.so[0m
+[29.341s] [ 21%] Built target nav2_drive_on_heading_bt_node
+[29.426s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o[0m
+[29.507s] [ 21%] Built target nav2_assisted_teleop_action_bt_node
+[29.640s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o[0m
+[29.827s] [ 23%] [32m[1mLinking CXX shared library libnav2_controller_cancel_bt_node.so[0m
+[30.121s] [ 23%] Built target nav2_controller_cancel_bt_node
+[30.157s] [ 24%] [32m[1mLinking CXX shared library libnav2_is_path_valid_condition_bt_node.so[0m
+[30.224s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_local_action_bt_node.dir/plugins/action/truncate_path_local_action.cpp.o[0m
+[30.982s] [ 26%] [32m[1mLinking CXX shared library libnav2_back_up_action_bt_node.so[0m
+[31.389s] [ 26%] Built target nav2_back_up_action_bt_node
+[31.499s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o[0m
+[31.585s] [ 27%] [32m[1mLinking CXX shared library libnav2_smooth_path_action_bt_node.so[0m
+[31.787s] [ 27%] Built target nav2_is_path_valid_condition_bt_node
+[31.937s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_path_longer_on_approach_bt_node.dir/plugins/decorator/path_longer_on_approach.cpp.o[0m
+[32.644s] [ 28%] [32m[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so[0m
+[33.621s] [ 29%] [32m[1mLinking CXX shared library libnav2_back_up_cancel_bt_node.so[0m
+[33.941s] [ 29%] Built target nav2_smooth_path_action_bt_node
+[34.105s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o[0m
+[34.143s] [ 29%] Built target nav2_back_up_cancel_bt_node
+[34.266s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o[0m
+[34.667s] [ 29%] Built target nav2_time_expired_condition_bt_node
+[34.744s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o[0m
+[34.779s] [ 30%] [32m[1mLinking CXX shared library libnav2_rate_controller_bt_node.so[0m
+[35.369s] [ 31%] [32m[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so[0m
+[35.894s] [ 31%] Built target nav2_rate_controller_bt_node
+[35.913s] [ 31%] Built target nav2_distance_traveled_condition_bt_node
+[35.992s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_get_pose_from_path_action_bt_node.dir/plugins/action/get_pose_from_path_action.cpp.o[0m
+[36.101s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o[0m
+[38.028s] [ 33%] [32m[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so[0m
+[38.394s] [ 33%] Built target nav2_initial_pose_received_condition_bt_node
+[38.417s] [ 34%] [32m[1mLinking CXX shared library libnav2_would_a_controller_recovery_help_condition_bt_node.so[0m
+[38.493s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o[0m
+[38.928s] [ 35%] Built target nav2_would_a_controller_recovery_help_condition_bt_node
+[39.003s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o[0m
+[39.919s] [ 37%] [32m[1mLinking CXX shared library libnav2_would_a_planner_recovery_help_condition_bt_node.so[0m
+[40.315s] [ 37%] Built target nav2_would_a_planner_recovery_help_condition_bt_node
+[40.473s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o[0m
+[41.762s] [ 39%] [32m[1mLinking CXX shared library libnav2_distance_controller_bt_node.so[0m
+[41.986s] [ 39%] [32m[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so[0m
+[42.086s] [ 40%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[42.161s] [ 40%] [32m[1mLinking CXX shared library libnav2_path_expiring_timer_condition.so[0m
+[42.252s] [ 40%] Built target nav2_distance_controller_bt_node
+[42.323s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o[0m
+[42.337s] [ 41%] Built target nav2_truncate_path_action_bt_node
+[42.412s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o[0m
+[42.617s] [ 41%] Built target nav2_is_stuck_condition_bt_node
+[42.628s] [ 41%] Built target nav2_path_expiring_timer_condition
+[42.695s] [ 41%] [32m[1mLinking CXX shared library libnav2_are_error_codes_active_condition_bt_node.so[0m
+[42.720s] [ 41%] [32m[1mLinking CXX shared library libnav2_follow_path_action_bt_node.so[0m
+[42.738s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o[0m
+[42.750s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_smoother_selector_bt_node.dir/plugins/action/smoother_selector_node.cpp.o[0m
+[43.213s] [ 41%] Built target nav2_are_error_codes_active_condition_bt_node
+[43.239s] [ 41%] Built target nav2_follow_path_action_bt_node
+[43.259s] [ 41%] [32m[1mLinking CXX shared library libnav2_truncate_path_local_action_bt_node.so[0m
+[43.300s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_progress_checker_selector_bt_node.dir/plugins/action/progress_checker_selector_node.cpp.o[0m
+[43.341s] [ 41%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_controller_bt_node.dir/plugins/decorator/goal_updated_controller.cpp.o[0m
+[43.373s] [ 42%] [32m[1mLinking CXX shared library libnav2_speed_controller_bt_node.so[0m
+[43.640s] [ 42%] Built target nav2_truncate_path_local_action_bt_node
+[43.759s] [ 42%] [32mBuilding CXX object CMakeFiles/generate_nav2_tree_nodes_xml.dir/src/generate_nav2_tree_nodes_xml.cpp.o[0m
+[44.587s] [ 42%] Built target nav2_speed_controller_bt_node
+[44.676s] [ 43%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[45.511s] [ 43%] [32m[1mLinking CXX shared library libnav2_is_battery_charging_condition_bt_node.so[0m
+[45.772s] [ 43%] [32m[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so[0m
+[45.924s] [ 43%] [32m[1mLinking CXX shared library libnav2_path_longer_on_approach_bt_node.so[0m
+[46.640s] [ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[46.767s] [ 43%] [32m[1mLinking CXX shared library libnav2_would_a_smoother_recovery_help_condition_bt_node.so[0m
+[46.771s] [ 43%] [32m[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so[0m
+[46.811s] [ 43%] Built target gtest_main
+[46.969s] [ 43%] Built target nav2_round_robin_node_bt_node
+[46.977s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[47.161s] [ 44%] [32m[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so[0m
+[47.253s] [ 44%] Built target nav2_is_battery_charging_condition_bt_node
+[47.430s] [ 44%] Built target nav2_path_longer_on_approach_bt_node
+[47.516s] [ 45%] [32m[1mLinking CXX shared library libnav2_recovery_node_bt_node.so[0m
+[47.547s] [ 45%] Built target nav2_pipeline_sequence_bt_node
+[47.957s] [ 45%] Built target nav2_recovery_node_bt_node
+[48.003s] [ 45%] Built target nav2_would_a_smoother_recovery_help_condition_bt_node
+[48.137s] [ 45%] [32m[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so[0m
+[48.328s] [ 45%] Built target nav2_reinitialize_global_localization_service_bt_node
+[48.755s] [ 45%] Built target nav2_is_battery_low_condition_bt_node
+[48.999s] [ 45%] [32m[1mLinking CXX shared library libnav2_single_trigger_bt_node.so[0m
+[49.312s] [ 45%] [32m[1mLinking CXX shared library libnav2_get_pose_from_path_action_bt_node.so[0m
+[49.639s] [ 45%] Built target nav2_single_trigger_bt_node
+[49.686s] [ 45%] [32m[1mLinking CXX executable generate_nav2_tree_nodes_xml[0m
+[49.695s] [ 45%] Built target nav2_get_pose_from_path_action_bt_node
+[49.971s] [ 45%] [32m[1mLinking CXX shared library libnav2_remove_passed_goals_action_bt_node.so[0m
+[50.109s] [ 45%] Built target generate_nav2_tree_nodes_xml
+[50.584s] [ 45%] Built target nav2_remove_passed_goals_action_bt_node
+[54.167s] [ 45%] [32m[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so[0m
+[54.404s] [ 45%] Built target nav2_goal_updater_node_bt_node
+[55.616s] [ 46%] [32m[1mLinking CXX shared library libnav2_navigate_through_poses_action_bt_node.so[0m
+[55.871s] [ 46%] Built target nav2_navigate_through_poses_action_bt_node
+[55.891s] [ 46%] [32m[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so[0m
+[56.057s] [ 46%] Built target nav2_navigate_to_pose_action_bt_node
+[56.839s] [ 46%] [32m[1mLinking CXX shared library libnav2_goal_updated_controller_bt_node.so[0m
+[57.234s] [ 46%] Built target nav2_goal_updated_controller_bt_node
+[57.806s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[57.834s] [ 46%] Built target gtest
+[57.858s] [ 46%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_path_expiring_timer.dir/test_path_expiring_timer.cpp.o[0m
+[57.858s] [ 47%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o[0m
+[57.869s] [ 47%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o[0m
+[57.870s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_bt_utils.dir/test_bt_utils.cpp.o[0m
+[57.870s] [ 47%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_globally_updated_goal.dir/test_globally_updated_goal.cpp.o[0m
+[57.881s] [ 48%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o[0m
+[57.887s] [ 49%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o[0m
+[58.945s] [ 49%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_smoother_recovery_help.dir/test_would_a_smoother_recovery_help.cpp.o[0m
+[58.951s] [ 49%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_planner_recovery_help.dir/test_would_a_planner_recovery_help.cpp.o[0m
+[58.955s] [ 49%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_are_error_codes_present.dir/test_are_error_codes_present.cpp.o[0m
+[58.956s] [ 49%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_controller_recovery_help.dir/test_would_a_controller_recovery_help.cpp.o[0m
+[58.979s] [ 49%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o[0m
+[59.023s] [ 49%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[60.024s] [ 50%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_charging.dir/test_is_battery_charging.cpp.o[0m
+[60.033s] [ 51%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o[0m
+[60.034s] [ 52%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[60.034s] [ 52%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[62.020s] [ 52%] [32m[1mLinking CXX shared library libnav2_planner_selector_bt_node.so[0m
+[62.101s] [ 53%] [32m[1mLinking CXX shared library libnav2_controller_selector_bt_node.so[0m
+[62.422s] [ 53%] Built target nav2_planner_selector_bt_node
+[62.524s] [ 53%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[62.745s] [ 54%] [32m[1mLinking CXX shared library libnav2_progress_checker_selector_bt_node.so[0m
+[62.873s] [ 55%] [32m[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so[0m
+[63.334s] [ 55%] Built target nav2_progress_checker_selector_bt_node
+[63.421s] [ 56%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[63.841s] [ 56%] Built target nav2_controller_selector_bt_node
+[64.014s] [ 57%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[64.890s] [ 57%] Built target nav2_goal_checker_selector_bt_node
+[65.053s] [ 57%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[66.704s] [ 58%] [32m[1mLinking CXX shared library libnav2_smoother_selector_bt_node.so[0m
+[68.356s] [ 58%] Built target nav2_smoother_selector_bt_node
+[72.196s] [ 59%] [32m[1mLinking CXX executable test_bt_utils[0m
+[72.786s] [ 59%] Built target test_bt_utils
+[74.044s] [ 60%] [32m[1mLinking CXX executable test_condition_distance_traveled[0m
+[74.473s] [ 60%] Built target test_condition_distance_traveled
+[75.481s] [ 60%] [32m[1mLinking CXX executable test_condition_globally_updated_goal[0m
+[75.855s] [ 60%] Built target test_condition_globally_updated_goal
+[76.139s] [ 60%] [32m[1mLinking CXX executable test_condition_goal_reached[0m
+[76.492s] [ 60%] [32m[1mLinking CXX executable test_condition_time_expired[0m
+[76.531s] [ 60%] Built target test_condition_goal_reached
+[76.797s] [ 60%] Built target test_condition_time_expired
+[77.016s] [ 61%] [32m[1mLinking CXX executable test_condition_is_path_valid[0m
+[77.079s] [ 62%] [32m[1mLinking CXX executable test_would_a_planner_recovery_help[0m
+[77.262s] [ 62%] [32m[1mLinking CXX executable test_condition_goal_updated[0m
+[77.463s] [ 62%] Built target test_would_a_planner_recovery_help
+[77.546s] [ 62%] Built target test_condition_is_path_valid
+[77.674s] [ 62%] Built target test_condition_goal_updated
+[78.373s] [ 62%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[79.007s] [ 62%] Built target test_condition_transform_available
+[79.286s] [ 63%] [32m[1mLinking CXX executable test_are_error_codes_present[0m
+[79.959s] [ 64%] [32m[1mLinking CXX executable test_would_a_controller_recovery_help[0m
+[79.959s] [ 64%] Built target test_are_error_codes_present
+[80.075s] [ 65%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[80.117s] [ 66%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[80.159s] [ 66%] Built target test_would_a_controller_recovery_help
+[80.244s] [ 67%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[80.339s] [ 67%] Built target test_decorator_distance_controller
+[80.357s] [ 67%] [32m[1mLinking CXX executable test_condition_is_battery_charging[0m
+[80.425s] [ 67%] Built target test_goal_updater_node
+[80.508s] [ 67%] Built target test_condition_is_stuck
+[80.626s] [ 67%] Built target test_condition_is_battery_charging
+[80.680s] [ 67%] [32m[1mLinking CXX executable test_condition_path_expiring_timer[0m
+[80.850s] [ 68%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[81.032s] [ 68%] Built target test_condition_path_expiring_timer
+[81.063s] [ 68%] Built target test_condition_is_battery_low
+[81.418s] [ 69%] [32m[1mLinking CXX executable test_would_a_smoother_recovery_help[0m
+[81.707s] [ 69%] Built target test_would_a_smoother_recovery_help
+[82.457s] [ 69%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[82.748s] [ 69%] [32m[1mLinking CXX executable test_condition_initial_pose_received[0m
+[82.748s] [ 69%] Built target test_decorator_rate_controller
+[82.923s] [ 69%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[82.955s] [ 69%] Built target test_condition_initial_pose_received
+[83.144s] [ 69%] Built target test_decorator_speed_controller
+[83.182s] [ 69%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[86.202s] [ 70%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o[0m
+[86.203s] [ 70%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[86.205s] [ 71%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o[0m
+[86.206s] [ 71%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[86.206s] [ 71%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[87.226s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o[0m
+[87.226s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o[0m
+[87.232s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o[0m
+[87.233s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o[0m
+[88.239s] [ 74%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o[0m
+[88.241s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[88.242s] [ 76%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o[0m
+[88.242s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[89.267s] [ 77%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[89.267s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[89.267s] [ 77%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[89.269s] [ 78%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[90.289s] [ 78%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o[0m
+[90.299s] [ 78%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o[0m
+[90.304s] [ 79%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[90.304s] [ 80%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[95.197s] [ 81%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[95.717s] [ 81%] Built target test_action_compute_path_to_pose_action
+[95.808s] [ 81%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o[0m
+[97.201s] [ 82%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[97.641s] [ 82%] Built target test_action_reinitialize_global_localization_service
+[97.745s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[99.812s] [ 83%] [32m[1mLinking CXX executable test_action_drive_on_heading_cancel_action[0m
+[100.315s] [ 84%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[100.508s] [ 84%] [32m[1mLinking CXX executable test_action_spin_cancel_action[0m
+[100.814s] [ 84%] [32m[1mLinking CXX executable test_action_assisted_teleop_cancel_action[0m
+[100.934s] [ 84%] [32m[1mLinking CXX executable test_action_wait_cancel_action[0m
+[100.946s] [ 84%] Built target test_action_spin_cancel_action
+[101.390s] [ 84%] Built target test_action_assisted_teleop_cancel_action
+[101.399s] [ 84%] Built target test_action_wait_cancel_action
+[101.411s] [ 84%] Built target test_action_drive_on_heading_cancel_action
+[101.474s] [ 84%] Built target test_action_compute_path_through_poses_action
+[101.660s] [ 85%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[101.877s] [ 85%] [32m[1mLinking CXX executable test_action_controller_cancel_action[0m
+[101.911s] [ 85%] [32m[1mLinking CXX executable test_action_drive_on_heading[0m
+[102.008s] [ 86%] [32m[1mLinking CXX executable test_action_back_up_cancel_action[0m
+[102.083s] [ 86%] Built target test_action_clear_costmap_service
+[102.313s] [ 86%] Built target test_action_drive_on_heading
+[102.350s] [ 86%] Built target test_action_back_up_cancel_action
+[102.456s] [ 86%] Built target test_action_controller_cancel_action
+[103.073s] [ 86%] [32m[1mLinking CXX executable test_decorator_path_longer_on_approach[0m
+[103.108s] [ 87%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[103.244s] [ 87%] Built target test_decorator_path_longer_on_approach
+[103.549s] [ 87%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[103.553s] [ 87%] Built target test_control_round_robin_node
+[103.920s] [ 87%] Built target test_action_spin_action
+[104.825s] [ 88%] [32m[1mLinking CXX executable test_goal_updated_controller[0m
+[104.946s] [ 88%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[105.125s] [ 88%] Built target test_goal_updated_controller
+[105.141s] [ 88%] Built target test_action_wait_action
+[105.161s] [ 88%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[105.399s] [ 88%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[105.449s] [ 88%] Built target test_control_pipeline_sequence
+[105.482s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_smoother_selector_node.dir/test_smoother_selector_node.cpp.o[0m
+[105.482s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[105.484s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_progress_checker_selector_node.dir/test_progress_checker_selector_node.cpp.o[0m
+[105.719s] [ 90%] [32m[1mLinking CXX executable test_action_assisted_teleop_action[0m
+[105.780s] [ 90%] Built target test_single_trigger_node
+[105.804s] [ 91%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_get_pose_from_path_action.dir/test_get_pose_from_path_action.cpp.o[0m
+[105.808s] [ 91%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[105.808s] [ 91%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[105.944s] [ 91%] Built target test_action_assisted_teleop_action
+[105.970s] [ 92%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[106.422s] [ 92%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[106.643s] [ 93%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[106.789s] [ 93%] Built target test_control_recovery_node
+[106.820s] [ 93%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o[0m
+[106.820s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[106.820s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[106.863s] [ 94%] Built target test_bt_action_node
+[106.885s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[108.886s] [ 94%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[109.169s] [ 94%] Built target test_action_back_up_action
+[109.265s] [ 95%] [32m[1mLinking CXX executable test_action_smooth_path_action[0m
+[109.556s] [ 95%] Built target test_action_smooth_path_action
+[111.288s] [ 95%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[111.645s] [ 95%] Built target test_action_follow_path_action
+[116.239s] [ 96%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[116.847s] [ 96%] [32m[1mLinking CXX executable test_get_pose_from_path_action[0m
+[117.138s] [ 96%] [32m[1mLinking CXX executable test_progress_checker_selector_node[0m
+[117.152s] [ 96%] Built target test_get_pose_from_path_action
+[117.179s] [ 96%] Built target test_controller_selector_node
+[117.235s] [ 96%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[117.316s] [ 97%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[117.453s] [ 97%] Built target test_progress_checker_selector_node
+[117.641s] [ 97%] Built target test_truncate_path_action
+[117.776s] [ 97%] Built target test_planner_selector_node
+[118.101s] [ 97%] [32m[1mLinking CXX executable test_smoother_selector_node[0m
+[118.503s] [ 97%] Built target test_smoother_selector_node
+[118.586s] [ 98%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[118.952s] [ 98%] Built target test_action_navigate_to_pose_action
+[119.016s] [ 98%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[119.340s] [ 98%] Built target test_goal_checker_selector_node
+[119.689s] [ 98%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[119.850s] [ 99%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[120.121s] [ 99%] Built target test_remove_passed_goals_action
+[120.394s] [ 99%] Built target test_action_navigate_through_poses_action
+[122.518s] [100%] [32m[1mLinking CXX executable test_truncate_path_local_action[0m
+[122.926s] [100%] Built target test_truncate_path_local_action
+[122.951s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/src/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/src/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_system_tests:/home/ranas/turtlebot4_ws/src/install/nav2_bringup:/home/ranas/turtlebot4_ws/src/install/navigation2:/home/ranas/turtlebot4_ws/src/install/opennav_docking:/home/ranas/turtlebot4_ws/src/install/opennav_docking_core:/home/ranas/turtlebot4_ws/src/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/src/install/nav2_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/src/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/src/install/nav2_controller:/home/ranas/turtlebot4_ws/src/install/dwb_plugins:/home/ranas/turtlebot4_ws/src/install/dwb_critics:/home/ranas/turtlebot4_ws/src/install/dwb_core:/home/ranas/turtlebot4_ws/src/install/nav_2d_utils:/home/ranas/turtlebot4_ws/src/install/dwb_msgs:/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/src/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/src/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/src/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/src/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/src/install/nav2_planner:/home/ranas/turtlebot4_ws/src/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/src/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/src/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/src/install/nav2_behaviors:/home/ranas/turtlebot4_ws/src/install/nav2_core:/home/ranas/turtlebot4_ws/src/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/src/install/costmap_queue:/home/ranas/turtlebot4_ws/src/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/src/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/src/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/src/install/nav2_map_server:/home/ranas/turtlebot4_ws/src/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/src/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/src/install/nav2_amcl:/home/ranas/turtlebot4_ws/src/install/nav2_util:/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util/lib:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree -- -j22 -l22
+[122.951s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/src/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/src/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_system_tests:/home/ranas/turtlebot4_ws/src/install/nav2_bringup:/home/ranas/turtlebot4_ws/src/install/navigation2:/home/ranas/turtlebot4_ws/src/install/opennav_docking:/home/ranas/turtlebot4_ws/src/install/opennav_docking_core:/home/ranas/turtlebot4_ws/src/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/src/install/nav2_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/src/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/src/install/nav2_controller:/home/ranas/turtlebot4_ws/src/install/dwb_plugins:/home/ranas/turtlebot4_ws/src/install/dwb_critics:/home/ranas/turtlebot4_ws/src/install/dwb_core:/home/ranas/turtlebot4_ws/src/install/nav_2d_utils:/home/ranas/turtlebot4_ws/src/install/dwb_msgs:/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/src/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/src/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/src/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/src/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/src/install/nav2_planner:/home/ranas/turtlebot4_ws/src/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/src/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/src/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/src/install/nav2_behaviors:/home/ranas/turtlebot4_ws/src/install/nav2_core:/home/ranas/turtlebot4_ws/src/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/src/install/costmap_queue:/home/ranas/turtlebot4_ws/src/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/src/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/src/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/src/install/nav2_map_server:/home/ranas/turtlebot4_ws/src/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/src/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/src/install/nav2_amcl:/home/ranas/turtlebot4_ws/src/install/nav2_util:/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util/lib:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree
+[122.969s] -- Install configuration: "Release"
+[122.969s] -- Execute custom install script
+[122.969s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[122.987s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[123.003s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[123.020s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[123.037s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[123.053s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[123.070s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[123.085s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[123.101s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[123.118s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[123.132s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[123.148s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[123.164s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[123.182s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[123.200s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[123.235s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[123.278s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[123.314s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[123.354s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[123.392s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[123.427s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[123.465s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[123.501s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[123.536s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[123.575s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[123.610s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[123.638s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[123.673s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[123.707s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[123.742s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so
+[123.766s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so
+[123.804s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so
+[123.843s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so
+[123.882s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[123.919s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[123.957s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[123.990s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[124.026s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[124.060s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[124.097s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[124.134s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[124.172s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[124.202s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[124.239s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[124.278s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[124.313s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+[124.345s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[124.383s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[124.415s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[124.435s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[124.473s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[124.511s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[124.541s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[124.581s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[124.616s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[124.654s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/lib/nav2_behavior_tree/generate_nav2_tree_nodes_xml
+[124.692s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[124.728s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[124.760s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[124.795s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[124.828s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[124.866s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[124.900s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_utils.hpp
+[124.930s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[124.965s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[124.998s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[125.036s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[125.068s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[125.103s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[125.140s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[125.178s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[125.210s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[125.247s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[125.286s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[125.321s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[125.355s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp
+[125.393s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[125.435s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[125.447s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[125.465s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[125.484s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+[125.505s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[125.520s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[125.540s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[125.562s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[125.588s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[125.620s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[125.658s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[125.695s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[125.735s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[125.775s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[125.809s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/are_error_codes_present_condition.hpp
+[125.827s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[125.846s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[125.868s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[125.885s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[125.905s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[125.924s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[125.943s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[125.962s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[125.982s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[126.012s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[126.041s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[126.057s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[126.078s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_controller_recovery_help_condition.hpp
+[126.099s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_planner_recovery_help_condition.hpp
+[126.116s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_smoother_recovery_help_condition.hpp
+[126.135s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[126.154s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[126.177s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[126.193s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[126.214s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[126.232s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[126.251s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[126.268s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[126.288s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[126.306s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[126.325s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[126.345s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_action_server.hpp
+[126.362s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_behavior_tree_fixture.hpp
+[126.382s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_dummy_tree_node.hpp
+[126.401s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_service.hpp
+[126.419s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_transform_handler.hpp
+[126.437s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_action_server.hpp
+[126.454s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp
+[126.471s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp
+[126.487s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_service.hpp
+[126.504s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_transform_handler.hpp
+[126.520s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[126.536s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/include/nav2_behavior_tree/plugins_list.hpp
+[126.552s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[126.569s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[126.587s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[126.604s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[126.619s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[126.636s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[126.651s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[126.669s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[126.685s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[126.702s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[126.718s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[126.734s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[126.750s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[126.767s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[126.785s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[126.802s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[126.818s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[126.833s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[126.849s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[126.866s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[126.887s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/home/ranas/turtlebot4_ws/src/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/src/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/src/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/src/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_system_tests:/home/ranas/turtlebot4_ws/src/install/nav2_bringup:/home/ranas/turtlebot4_ws/src/install/navigation2:/home/ranas/turtlebot4_ws/src/install/opennav_docking:/home/ranas/turtlebot4_ws/src/install/opennav_docking_core:/home/ranas/turtlebot4_ws/src/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/src/install/nav2_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/src/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/src/install/nav2_controller:/home/ranas/turtlebot4_ws/src/install/dwb_plugins:/home/ranas/turtlebot4_ws/src/install/dwb_critics:/home/ranas/turtlebot4_ws/src/install/dwb_core:/home/ranas/turtlebot4_ws/src/install/nav_2d_utils:/home/ranas/turtlebot4_ws/src/install/dwb_msgs:/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/src/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/src/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/src/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/src/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/src/install/nav2_planner:/home/ranas/turtlebot4_ws/src/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/src/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/src/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/src/install/nav2_behaviors:/home/ranas/turtlebot4_ws/src/install/nav2_core:/home/ranas/turtlebot4_ws/src/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/src/install/costmap_queue:/home/ranas/turtlebot4_ws/src/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/src/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/src/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/src/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/src/install/nav2_map_server:/home/ranas/turtlebot4_ws/src/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/src/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/src/install/nav2_amcl:/home/ranas/turtlebot4_ws/src/install/nav2_util:/home/ranas/turtlebot4_ws/src/install/nav2_msgs:/home/ranas/turtlebot4_ws/src/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_util/lib:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_msgs/lib/python3.12/site-packages:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_behavior_tree

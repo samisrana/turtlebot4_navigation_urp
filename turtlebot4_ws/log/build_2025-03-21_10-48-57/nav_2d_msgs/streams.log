@@ -1,0 +1,345 @@
+[0.038s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs
+[0.308s] -- The C compiler identification is GNU 13.3.0
+[0.309s] -- The CXX compiler identification is GNU 13.3.0
+[0.309s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.366s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.367s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.381s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.519s] -- Detecting CXX compile features
+[0.519s] -- Detecting CXX compile features - done
+[0.523s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.846s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.956s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.974s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.101s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.137s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.898s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.076s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.543s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.771s] -- Found PythonExtra: /usr/bin/python3  
+[4.388s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.522s] -- Configuring done (4.5s)
+[4.571s] -- Generating done (0.0s)
+[4.584s] -- Build files have been written to: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs
+[4.597s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs
+[4.598s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs -- -j22 -l22
+[4.668s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.689s] [  1%] Built target ament_cmake_python_symlink_nav_2d_msgs
+[4.948s] running egg_info
+[4.949s] creating nav_2d_msgs.egg-info
+[4.972s] writing nav_2d_msgs.egg-info/PKG-INFO
+[4.972s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[4.972s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[4.973s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[5.034s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[5.034s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[5.050s] [  1%] Built target nav_2d_msgs__rosidl_generator_type_description
+[5.068s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.083s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.083s] [  3%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[5.422s] [  4%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[5.422s] [  5%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[5.424s] [  8%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__description.c.o[0m
+[5.424s] [  8%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[5.424s] [  9%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__description.c.o[0m
+[5.427s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__description.c.o[0m
+[5.427s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[5.430s] [ 13%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[5.431s] [ 14%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__description.c.o[0m
+[5.446s] [ 15%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[5.446s] [ 16%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__description.c.o[0m
+[5.451s] [ 17%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[5.451s] [ 19%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[5.453s] [ 20%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[5.460s] [ 21%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[5.460s] [ 22%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[5.476s] [ 23%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[5.496s] [ 25%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__description.c.o[0m
+[5.566s] [ 26%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[5.621s] [ 26%] Built target nav_2d_msgs__rosidl_generator_c
+[5.631s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.637s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.644s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.660s] [ 29%] Built target nav_2d_msgs__cpp
+[5.673s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.674s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.679s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.095s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[6.122s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[6.122s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[6.123s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[6.144s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[6.149s] [ 40%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[6.175s] [ 41%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[6.178s] [ 42%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[6.179s] [ 44%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[6.180s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[6.188s] [ 46%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[6.196s] [ 47%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[6.237s] [ 48%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[6.258s] [ 50%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[6.263s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[6.266s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[6.266s] [ 53%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[6.270s] [ 54%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[6.270s] [ 55%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[6.276s] [ 57%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[6.280s] [ 58%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[6.288s] [ 59%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[6.303s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[6.303s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[6.311s] [ 63%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[6.346s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[6.351s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[6.351s] [ 66%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[6.367s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[6.457s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[6.475s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[6.534s] [ 70%] Built target nav_2d_msgs__rosidl_typesupport_c
+[6.575s] [ 71%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.656s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[6.659s] [ 72%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[6.670s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[6.675s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[6.688s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[6.721s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[6.724s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[7.154s] [ 79%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[7.172s] [ 80%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.191s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[7.231s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[7.348s] [ 82%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.386s] [ 83%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.441s] [ 83%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[7.443s] [ 83%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[7.482s] [ 83%] Built target nav_2d_msgs
+[7.519s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.115s] [ 84%] Built target nav_2d_msgs__py
+[8.145s] [ 86%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[8.145s] [ 86%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[8.146s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[8.147s] [ 89%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[8.150s] [ 91%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[8.150s] [ 91%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[8.328s] [ 92%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_py.so[0m
+[8.391s] [ 92%] Built target nav_2d_msgs__rosidl_generator_py
+[8.424s] [ 94%] [32mBuilding C object CMakeFiles/nav_2d_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.426s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.427s] [ 96%] [32mBuilding C object CMakeFiles/nav_2d_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.543s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so[0m
+[8.586s] [ 97%] Built target nav_2d_msgs_s__rosidl_typesupport_c
+[8.592s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.592s] [100%] [32m[1mLinking C shared module rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[8.645s] [100%] Built target nav_2d_msgs_s__rosidl_typesupport_fastrtps_c
+[8.646s] [100%] Built target nav_2d_msgs_s__rosidl_typesupport_introspection_c
+[8.666s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs -- -j22 -l22
+[8.668s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs
+[8.682s] -- Install configuration: ""
+[8.683s] -- Execute custom install script
+[8.684s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[8.702s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.json
+[8.720s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.json
+[8.737s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.json
+[8.752s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.json
+[8.769s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.json
+[8.785s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.json
+[8.802s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[8.818s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[8.836s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[8.853s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[8.869s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[8.884s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[8.901s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[8.916s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[8.930s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[8.948s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[8.964s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[8.982s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[8.998s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[9.018s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[9.034s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[9.050s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[9.063s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[9.077s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[9.092s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[9.108s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[9.122s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[9.137s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.150s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[9.162s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[9.175s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[9.191s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[9.206s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[9.223s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[9.239s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[9.254s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[9.271s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[9.288s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[9.302s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[9.319s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.334s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[9.351s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[9.367s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[9.382s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[9.397s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[9.410s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[9.428s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[9.456s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[9.471s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[9.478s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[9.487s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[9.496s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[9.505s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[9.512s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[9.520s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[9.529s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[9.542s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[9.560s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[9.570s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[9.590s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[9.602s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[9.613s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[9.627s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[9.643s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[9.656s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[9.669s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[9.683s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[9.697s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.712s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[9.723s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[9.735s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[9.751s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[9.762s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[9.780s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[9.797s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[9.805s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[9.813s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[9.823s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.833s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[9.843s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[9.852s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[9.862s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[9.875s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[9.886s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[9.896s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.906s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[9.919s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[9.932s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[9.948s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[9.959s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[9.969s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[9.978s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[9.989s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[10.002s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.5-py3.12.egg-info/PKG-INFO
+[10.014s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.5-py3.12.egg-info/SOURCES.txt
+[10.028s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.5-py3.12.egg-info/dependency_links.txt
+[10.042s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.5-py3.12.egg-info/top_level.txt
+[10.053s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/__init__.py
+[10.067s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[10.079s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.094s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.107s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/__init__.py
+[10.123s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d.py
+[10.141s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d_s.c
+[10.159s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[10.178s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[10.192s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[10.209s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[10.221s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[10.232s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[10.246s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[10.260s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[10.273s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[10.283s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[10.296s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so
+[10.314s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.326s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so
+[10.340s] -- Up-to-date symlink: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so
+[10.340s] -- Up-to-date symlink: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so
+[10.341s] -- Up-to-date symlink: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so
+[10.341s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[10.361s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[10.375s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[10.389s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[10.402s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[10.416s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[10.433s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[10.452s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[10.472s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[10.492s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[10.505s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[10.524s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[10.541s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[10.554s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[10.567s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[10.586s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[10.601s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[10.612s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[10.626s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[10.641s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[10.658s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[10.670s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[10.689s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[10.700s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[10.719s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[10.736s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.755s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.775s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.793s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.812s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.824s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.840s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[10.858s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[10.869s] -- Symlinking: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[10.884s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[10.884s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[10.884s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[10.884s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.884s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.884s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.885s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[10.885s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.885s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[10.885s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[10.885s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[10.885s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.885s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[10.885s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[10.940s] Listing '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs'...
+[10.940s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/__init__.py'...
+[10.940s] Listing '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg'...
+[10.940s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/__init__.py'...
+[10.940s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d.py'...
+[10.941s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32.py'...
+[10.941s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py'...
+[10.941s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d.py'...
+[10.941s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32.py'...
+[10.941s] Compiling '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py'...
+[10.947s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[10.948s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so" to ""
+[10.948s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[10.948s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.948s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.948s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.948s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[10.948s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[10.949s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.950s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[10.950s] -- Installing: /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.952s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/home/ranas/turtlebot4_ws/src/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner:/home/ranas/turtlebot4_ws/src/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/src/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/src/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav_2d_msgs

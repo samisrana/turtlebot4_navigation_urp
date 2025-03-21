@@ -1,0 +1,25 @@
+[1.016s] Invoking command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim/build --no-deps symlink_data
+[1.225s] running develop
+[1.333s] running egg_info
+[1.333s] creating nav2_loopback_sim.egg-info
+[1.344s] writing nav2_loopback_sim.egg-info/PKG-INFO
+[1.344s] writing dependency_links to nav2_loopback_sim.egg-info/dependency_links.txt
+[1.344s] writing entry points to nav2_loopback_sim.egg-info/entry_points.txt
+[1.344s] writing requirements to nav2_loopback_sim.egg-info/requires.txt
+[1.344s] writing top-level names to nav2_loopback_sim.egg-info/top_level.txt
+[1.344s] writing manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[1.366s] reading manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[1.366s] writing manifest file 'nav2_loopback_sim.egg-info/SOURCES.txt'
+[1.379s] running build_ext
+[1.379s] Creating /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2-loopback-sim.egg-link (link to .)
+[1.379s] Installing loopback_simulator script to /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/lib/nav2_loopback_sim
+[1.379s] 
+[1.379s] Installed /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim
+[1.379s] running symlink_data
+[1.379s] creating /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/share/ament_index
+[1.380s] creating /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/share/ament_index/resource_index
+[1.380s] creating /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[1.380s] symbolically linking /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim/resource/nav2_loopback_sim -> /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[1.380s] symbolically linking /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim/package.xml -> /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/share/nav2_loopback_sim
+[1.380s] symbolically linking /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim/launch/loopback_simulation.launch.py -> /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/share/nav2_loopback_sim
+[1.406s] Invoked command in '/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_loopback_sim/build --no-deps symlink_data

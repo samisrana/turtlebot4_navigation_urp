@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_mppi_controller/libmppi_controller.so" "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_mppi_controller/libmppi_critics.so" "TARGETS" "mppi_controller" "mppi_critics" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

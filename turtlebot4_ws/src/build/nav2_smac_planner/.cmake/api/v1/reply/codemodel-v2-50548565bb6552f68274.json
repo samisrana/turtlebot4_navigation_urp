@@ -1,0 +1,275 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1144b1d93e97473da06c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						18
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav2_smac_planner",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-6c405742a2e08521c0dc.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-2910d975e3706777da0f.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner-Release-c2c7d2c56b5fd88b1642.json",
+					"name" : "nav2_smac_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner_2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner_2d-Release-c2f26bc35d091b266010.json",
+					"name" : "nav2_smac_planner_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner_lattice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner_lattice-Release-49a2a32bd8cc9859c4ea.json",
+					"name" : "nav2_smac_planner_lattice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner_uninstall-Release-af5750b64d71fd800581.json",
+					"name" : "nav2_smac_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_a_star::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_a_star-Release-2b1ce2dc17cc5524eda0.json",
+					"name" : "test_a_star",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_collision_checker::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_collision_checker-Release-fe8c444de44657a39d6e.json",
+					"name" : "test_collision_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_costmap_downsampler::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_costmap_downsampler-Release-cd21d33f3c5d99ec3b8f.json",
+					"name" : "test_costmap_downsampler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_lattice_node::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_lattice_node-Release-6e1bf438d2897ecf31cf.json",
+					"name" : "test_lattice_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_node2d::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_node2d-Release-186a845d958d585c5b38.json",
+					"name" : "test_node2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_nodebasic::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_nodebasic-Release-eb5d05f91287606f507f.json",
+					"name" : "test_nodebasic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_nodehybrid::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_nodehybrid-Release-513a5705340885bb45dc.json",
+					"name" : "test_nodehybrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smac_2d::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smac_2d-Release-d057ed3c3d70accce852.json",
+					"name" : "test_smac_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smac_hybrid::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smac_hybrid-Release-5f43a42208a073126875.json",
+					"name" : "test_smac_hybrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smac_lattice::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smac_lattice-Release-b354231214cee77bb59c.json",
+					"name" : "test_smac_lattice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smoother::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smoother-Release-061261bd0567efd44ba6.json",
+					"name" : "test_smoother",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_utils::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_utils-Release-97c85f3e1a5bc8091a01.json",
+					"name" : "test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f716948faa0c937abebc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ranas/turtlebot4_ws/src/build/nav2_smac_planner",
+		"source" : "/home/ranas/turtlebot4_ws/src/navigation2/nav2_smac_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

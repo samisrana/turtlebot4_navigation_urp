@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_system_tests/liblocal_controller.so" "TARGETS" "local_controller" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/nav2_system_tests")

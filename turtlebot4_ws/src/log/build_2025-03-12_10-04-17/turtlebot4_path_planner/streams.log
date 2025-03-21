@@ -1,0 +1,32 @@
+[1.999s] Invoking command in '/home/ranas/turtlebot4_ws/src/turtlebot4_path_planner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtlebot4_path_planner build --build-base /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/build install --record /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/install.log --single-version-externally-managed install_data
+[2.342s] running egg_info
+[2.344s] creating ../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info
+[2.372s] writing ../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info/PKG-INFO
+[2.373s] writing dependency_links to ../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info/dependency_links.txt
+[2.373s] writing requirements to ../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info/requires.txt
+[2.373s] writing top-level names to ../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info/top_level.txt
+[2.373s] writing manifest file '../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info/SOURCES.txt'
+[2.436s] reading manifest file '../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info/SOURCES.txt'
+[2.437s] writing manifest file '../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info/SOURCES.txt'
+[2.437s] running build
+[2.437s] running build_py
+[2.438s] creating /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/build
+[2.438s] creating /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/build/lib
+[2.438s] creating /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/build/lib/turtlebot4_path_planner
+[2.439s] copying turtlebot4_path_planner/__init__.py -> /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/build/lib/turtlebot4_path_planner
+[2.439s] running install
+[2.448s] running install_lib
+[2.482s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/lib/python3.12/site-packages/turtlebot4_path_planner
+[2.482s] copying /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/build/lib/turtlebot4_path_planner/__init__.py -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/lib/python3.12/site-packages/turtlebot4_path_planner
+[2.483s] byte-compiling /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/lib/python3.12/site-packages/turtlebot4_path_planner/__init__.py to __init__.cpython-312.pyc
+[2.484s] running install_data
+[2.484s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/share/ament_index
+[2.484s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/share/ament_index/resource_index
+[2.484s] creating /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/share/ament_index/resource_index/packages
+[2.485s] copying resource/turtlebot4_path_planner -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/share/ament_index/resource_index/packages
+[2.485s] copying package.xml -> /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/share/turtlebot4_path_planner
+[2.485s] running install_egg_info
+[2.523s] Copying ../build/turtlebot4_path_planner/turtlebot4_path_planner.egg-info to /home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/lib/python3.12/site-packages/turtlebot4_path_planner-0.0.0-py3.12.egg-info
+[2.524s] running install_scripts
+[2.754s] writing list of installed files to '/home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/install.log'
+[2.794s] Invoked command in '/home/ranas/turtlebot4_ws/src/turtlebot4_path_planner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ranas/turtlebot4_ws/src/install/turtlebot4_path_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtlebot4_path_planner build --build-base /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/build install --record /home/ranas/turtlebot4_ws/src/build/turtlebot4_path_planner/install.log --single-version-externally-managed install_data

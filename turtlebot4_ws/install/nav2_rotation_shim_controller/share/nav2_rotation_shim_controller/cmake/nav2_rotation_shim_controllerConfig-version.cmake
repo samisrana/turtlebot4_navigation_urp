@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_rotation_shim_controller/ament_cmake_core/nav2_rotation_shim_controllerConfig-version.cmake

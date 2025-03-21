@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/nav2_voxel_grid/ament_cmake_environment_hooks/local_setup.sh

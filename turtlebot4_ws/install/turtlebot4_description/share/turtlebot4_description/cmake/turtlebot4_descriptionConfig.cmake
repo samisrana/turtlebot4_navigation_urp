@@ -1,0 +1,1 @@
+/home/ranas/turtlebot4_navigation_urp/turtlebot4_ws/build/turtlebot4_description/ament_cmake_core/turtlebot4_descriptionConfig.cmake

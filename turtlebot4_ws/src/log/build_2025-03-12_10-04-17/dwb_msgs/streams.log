@@ -1,0 +1,520 @@
+[0.029s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/dwb_msgs': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ranas/turtlebot4_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_ws/src/install/dwb_msgs
+[0.153s] -- The C compiler identification is GNU 13.3.0
+[0.270s] -- The CXX compiler identification is GNU 13.3.0
+[0.308s] -- Detecting C compiler ABI info
+[0.539s] -- Detecting C compiler ABI info - done
+[0.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.557s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.576s] -- Detecting CXX compiler ABI info
+[0.792s] -- Detecting CXX compiler ABI info - done
+[0.811s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.811s] -- Detecting CXX compile features
+[0.812s] -- Detecting CXX compile features - done
+[0.825s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.191s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.649s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.697s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.759s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.876s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.958s] -- Found nav_2d_msgs: 1.3.5 (/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[1.996s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.048s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.086s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.270s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.287s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.497s] -- Found PythonExtra: /usr/bin/python3  
+[6.136s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.235s] -- Configuring done (6.2s)
+[6.299s] -- Generating done (0.0s)
+[6.315s] -- Build files have been written to: /home/ranas/turtlebot4_ws/src/build/dwb_msgs
+[6.332s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ranas/turtlebot4_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/ranas/turtlebot4_ws/src/install/dwb_msgs
+[6.335s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/dwb_msgs': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ranas/turtlebot4_ws/src/build/dwb_msgs -- -j22 -l22
+[6.450s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.467s] [  1%] Built target ament_cmake_python_copy_dwb_msgs
+[6.843s] running egg_info
+[6.845s] creating dwb_msgs.egg-info
+[6.879s] writing dwb_msgs.egg-info/PKG-INFO
+[6.880s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[6.880s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[6.880s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.966s] [  1%] Built target dwb_msgs__rosidl_generator_type_description
+[6.984s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.984s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.986s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[7.007s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.063s] [  2%] Built target ament_cmake_python_build_dwb_msgs_egg
+[8.121s] [  2%] Built target dwb_msgs__cpp
+[8.279s] [  4%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__description.c.o[0m
+[8.280s] [  5%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[8.280s] [  6%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[8.281s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[8.281s] [  4%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[8.281s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[8.282s] [  8%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__description.c.o[0m
+[8.282s] [  9%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__description.c.o[0m
+[8.282s] [ 10%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[8.282s] [ 11%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[8.283s] [ 12%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__description.c.o[0m
+[8.285s] [ 12%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[8.286s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__description.c.o[0m
+[8.286s] [ 14%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[8.289s] [ 15%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[8.289s] [ 16%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[8.301s] [ 17%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[8.302s] [ 18%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[8.304s] [ 21%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__description.c.o[0m
+[8.304s] [ 21%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[8.304s] [ 21%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__description.c.o[0m
+[8.325s] [ 21%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__description.c.o[0m
+[8.348s] [ 22%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[8.358s] [ 23%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[8.376s] [ 24%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__description.c.o[0m
+[8.383s] [ 25%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[8.383s] [ 26%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[8.508s] [ 27%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[8.589s] [ 27%] Built target dwb_msgs__rosidl_generator_c
+[8.610s] [ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.610s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.613s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.613s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.613s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.614s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.003s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[10.024s] [ 34%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[10.028s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[10.040s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[10.041s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[10.041s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[10.064s] [ 38%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[10.065s] [ 39%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[10.065s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[10.067s] [ 41%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[10.067s] [ 41%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[10.067s] [ 42%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[10.081s] [ 43%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[10.081s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[10.082s] [ 45%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[10.129s] [ 46%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[10.136s] [ 47%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[10.140s] [ 47%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[10.179s] [ 48%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[10.202s] [ 49%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[10.251s] [ 50%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[10.268s] [ 51%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[10.275s] [ 52%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[10.278s] [ 53%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[10.289s] [ 54%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[10.322s] [ 55%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[10.421s] [ 56%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[10.440s] [ 57%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[10.441s] [ 58%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[10.460s] [ 59%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[10.482s] [ 60%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[10.482s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[10.666s] [ 61%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[10.923s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[10.951s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[10.987s] [ 64%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[11.110s] [ 65%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[11.683s] [ 66%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.716s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[11.722s] [ 68%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[11.739s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[11.785s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[11.785s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[11.785s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[11.785s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[11.787s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[11.945s] [ 74%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[11.966s] [ 75%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[11.988s] [ 75%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[12.029s] [ 76%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[12.037s] [ 77%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[12.218s] [ 77%] Built target dwb_msgs__rosidl_typesupport_c
+[12.267s] [ 78%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[12.481s] [ 79%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[12.533s] [ 79%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[12.573s] [ 80%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[12.604s] [ 80%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[12.765s] [ 81%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[12.945s] [ 82%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[13.069s] [ 83%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.165s] [ 83%] Built target dwb_msgs__rosidl_typesupport_cpp
+[13.309s] [ 83%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[13.819s] [ 84%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.897s] [ 85%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.942s] [ 85%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[14.006s] [ 85%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[14.051s] [ 85%] Built target dwb_msgs
+[14.102s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.745s] [ 86%] Built target dwb_msgs__py
+[15.782s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[15.782s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[15.783s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[15.783s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[15.783s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[15.784s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[15.785s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[15.786s] [ 93%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[15.786s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[16.075s] [ 94%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_py.so[0m
+[16.160s] [ 94%] Built target dwb_msgs__rosidl_generator_py
+[16.205s] [ 97%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.206s] [ 97%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.206s] [ 97%] [32mBuilding C object CMakeFiles/dwb_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.389s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[16.440s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.454s] [ 99%] Built target dwb_msgs_s__rosidl_typesupport_introspection_c
+[16.461s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so[0m
+[16.492s] [100%] Built target dwb_msgs_s__rosidl_typesupport_fastrtps_c
+[16.521s] [100%] Built target dwb_msgs_s__rosidl_typesupport_c
+[16.539s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ranas/turtlebot4_ws/src/build/dwb_msgs -- -j22 -l22
+[16.541s] Invoking command in '/home/ranas/turtlebot4_ws/src/build/dwb_msgs': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ranas/turtlebot4_ws/src/build/dwb_msgs
+[16.553s] -- Install configuration: ""
+[16.553s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[16.553s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.json
+[16.553s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.json
+[16.554s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[16.555s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[16.555s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[16.555s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[16.555s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[16.555s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[16.555s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[16.555s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__description.c
+[16.556s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[16.556s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[16.556s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[16.556s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[16.556s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__description.c
+[16.556s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[16.556s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[16.557s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[16.557s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[16.557s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__description.c
+[16.557s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[16.557s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[16.557s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__description.c
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[16.558s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__description.c
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[16.559s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[16.560s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__description.c
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__description.c
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[16.561s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__description.c
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__description.c
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[16.562s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.563s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[16.563s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[16.563s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[16.563s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[16.563s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[16.563s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[16.563s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[16.563s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[16.563s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[16.563s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[16.564s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.564s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[16.565s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.565s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[16.565s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[16.565s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[16.565s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[16.565s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[16.565s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[16.565s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[16.565s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[16.565s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[16.566s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[16.567s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[16.567s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[16.567s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[16.568s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[16.569s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[16.570s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[16.570s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[16.570s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[16.570s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[16.570s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[16.570s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[16.570s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[16.570s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[16.570s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[16.570s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[16.571s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[16.571s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[16.571s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[16.571s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[16.571s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[16.571s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[16.571s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.571s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.571s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.571s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[16.571s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[16.572s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[16.572s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[16.573s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[16.573s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[16.573s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.574s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[16.574s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.574s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[16.574s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[16.574s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[16.574s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[16.574s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[16.574s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[16.574s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[16.574s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[16.575s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[16.575s] -- Up-to-date: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[16.575s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[16.576s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[16.576s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[16.576s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.5-py3.12.egg-info
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.5-py3.12.egg-info/SOURCES.txt
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.5-py3.12.egg-info/dependency_links.txt
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.5-py3.12.egg-info/PKG-INFO
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.5-py3.12.egg-info/top_level.txt
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv
+[16.577s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg
+[16.578s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score_s.c
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.579s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[16.653s] Listing '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs'...
+[16.653s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py'...
+[16.653s] Listing '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg'...
+[16.653s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py'...
+[16.653s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py'...
+[16.653s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[16.653s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[16.653s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py'...
+[16.653s] Listing '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv'...
+[16.653s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py'...
+[16.654s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[16.654s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[16.654s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py'...
+[16.654s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py'...
+[16.654s] Compiling '/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py'...
+[16.660s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.661s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.661s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[16.661s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[16.661s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[16.662s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so" to ""
+[16.662s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[16.662s] -- Set non-toolchain portion of runtime path of "/home/ranas/turtlebot4_ws/src/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[16.662s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[16.662s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[16.662s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[16.663s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[16.663s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[16.663s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[16.663s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[16.663s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[16.664s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[16.664s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[16.664s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[16.665s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[16.665s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[16.665s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[16.665s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[16.665s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[16.665s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[16.666s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[16.666s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[16.666s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[16.666s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[16.666s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[16.666s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[16.666s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/package.dsv
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.667s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.668s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.669s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[16.670s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[16.670s] -- Installing: /home/ranas/turtlebot4_ws/src/install/dwb_msgs/share/dwb_msgs/package.xml
+[16.672s] Invoked command in '/home/ranas/turtlebot4_ws/src/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/turtlebot4_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_simulator:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_bringup:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_toolbox:/home/ranas/turtlebot4_ws/install/turtlebot4_gz_gui_plugins:/home/ranas/turtlebot4_ws/install/turtlebot4_custom_maps:/home/ranas/turtlebot4_ws/install/turtlebot4_cpp_tutorials:/home/ranas/turtlebot4_ws/install/nav2_system_tests:/home/ranas/turtlebot4_ws/install/nav2_bringup:/home/ranas/turtlebot4_ws/install/navigation2:/home/ranas/turtlebot4_ws/install/opennav_docking:/home/ranas/turtlebot4_ws/install/opennav_docking_core:/home/ranas/turtlebot4_ws/install/opennav_docking_bt:/home/ranas/turtlebot4_ws/install/nav2_smoother:/home/ranas/turtlebot4_ws/install/nav2_graceful_controller:/home/ranas/turtlebot4_ws/install/nav2_dwb_controller:/home/ranas/turtlebot4_ws/install/nav2_controller:/home/ranas/turtlebot4_ws/install/dwb_plugins:/home/ranas/turtlebot4_ws/install/dwb_critics:/home/ranas/turtlebot4_ws/install/dwb_core:/home/ranas/turtlebot4_ws/install/nav_2d_utils:/home/ranas/turtlebot4_ws/install/dwb_msgs:/home/ranas/turtlebot4_ws/install/nav_2d_msgs:/home/ranas/turtlebot4_ws/install/nav2_waypoint_follower:/home/ranas/turtlebot4_ws/install/nav2_theta_star_planner:/home/ranas/turtlebot4_ws/install/nav2_smac_planner:/home/ranas/turtlebot4_ws/install/nav2_rotation_shim_controller:/home/ranas/turtlebot4_ws/install/nav2_regulated_pure_pursuit_controller:/home/ranas/turtlebot4_ws/install/nav2_planner:/home/ranas/turtlebot4_ws/install/nav2_navfn_planner:/home/ranas/turtlebot4_ws/install/nav2_mppi_controller:/home/ranas/turtlebot4_ws/install/nav2_constrained_smoother:/home/ranas/turtlebot4_ws/install/nav2_bt_navigator:/home/ranas/turtlebot4_ws/install/nav2_behaviors:/home/ranas/turtlebot4_ws/install/nav2_core:/home/ranas/turtlebot4_ws/install/nav2_collision_monitor:/home/ranas/turtlebot4_ws/install/costmap_queue:/home/ranas/turtlebot4_ws/install/nav2_costmap_2d:/home/ranas/turtlebot4_ws/install/nav2_voxel_grid:/home/ranas/turtlebot4_ws/install/nav2_velocity_smoother:/home/ranas/turtlebot4_ws/install/nav2_rviz_plugins:/home/ranas/turtlebot4_ws/install/nav2_map_server:/home/ranas/turtlebot4_ws/install/nav2_lifecycle_manager:/home/ranas/turtlebot4_ws/install/nav2_behavior_tree:/home/ranas/turtlebot4_ws/install/nav2_amcl:/home/ranas/turtlebot4_ws/install/nav2_util:/home/ranas/turtlebot4_ws/install/nav2_msgs:/home/ranas/turtlebot4_ws/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ranas/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/ranas/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/ranas/turtlebot4_ws/install/nav2_simple_commander:/home/ranas/turtlebot4_ws/install/nav2_loopback_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ranas/turtlebot4_ws/src/install/nav_2d_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ranas/turtlebot4_ws/src/build/dwb_msgs
